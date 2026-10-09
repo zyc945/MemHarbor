@@ -215,4 +215,5 @@ Details and scope: [new-user verification](evaluation/NEW-USER.md). Earlier remo
 - [x] Preserve runtime, tests, dependency metadata and frozen fixtures; normalize source installation links and machine-specific documentation paths.
 - [x] Verify fresh installation, typecheck, 100 unit tests, Worker suites, stdio and 32-case synthetic evaluation; see [SOURCE_PREPARATION.md](SOURCE_PREPARATION.md).
 - [ ] Upgrade the six reported development dependency advisories and rerun full CI.
-- [ ] Complete source publication and update public installation/website entry points; continue existing isolated remote and client acceptance.
+- [x] Publish the clean source repository and update public installation/website entry points.
+- [ ] Complete existing isolated remote and client acceptance.

@@ -28,8 +28,11 @@ are not part of this source tree.
   frozen fixtures against the reviewed source snapshot.
 - Scan release files, Git metadata and compressed fixture contents before upload.
 
-Repository publication is a separate step. Preparing this source tree does not
-change the visibility of the original repository or any memory data repository.
+On 2026-10-09, this clean repository was published as
+[zyc945/MemHarbor](https://github.com/zyc945/MemHarbor). Anonymous access to the
+repository and README was verified. The original development repository remains
+private, and an original-history commit is unavailable through this public
+repository. Publication does not change any memory data repository visibility.
 The six previously reported development dependency advisories and pending remote
 and client acceptance remain tracked separately; this preparation preserves
 dependency versions and application behavior.
