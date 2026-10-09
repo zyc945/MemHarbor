@@ -1,0 +1,12 @@
+{
+  "baseline_commit": "faa989e20ed5c83d715f2937b3a3fcc7d78ea81a",
+  "scope": "Worker dry-run builds using the same installed dependencies; bundle size is not a runtime latency or RSS measurement",
+  "baseline": {
+    "bytes": 1490458,
+    "gzip_bytes": 267224
+  },
+  "current": {
+    "bytes": 1504564,
+    "gzip_bytes": 271752
+  }
+}

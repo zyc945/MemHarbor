@@ -1,0 +1,32 @@
+{
+  "name": "memharbor",
+  "version": "0.1.0",
+  "description": "Find reusable memories and turn conversation context into concise, reviewable updates.",
+  "author": {
+    "name": "MemHarbor contributors"
+  },
+  "repository": "https://github.com/zyc945/MemHarbor",
+  "skills": "./skills/",
+  "mcpServers": {
+    "memharbor": {
+      "type": "http",
+      "url": "https://memharbor.example.com/mcp",
+      "bearer_token_env_var": "MEMHARBOR_TOKEN"
+    }
+  },
+  "interface": {
+    "displayName": "MemHarbor",
+    "shortDescription": "Find memories and save concise, reviewed updates",
+    "longDescription": "Read relevant memories or prepare incremental updates from conversation context. Preview writes before saving unless already authorized.",
+    "developerName": "MemHarbor contributors",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Find the relevant memory for this task.",
+      "Organize this discussion into a memory draft for my review."
+    ]
+  }
+}

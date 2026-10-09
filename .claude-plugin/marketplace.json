@@ -1,0 +1,16 @@
+{
+  "name": "memharbor",
+  "owner": {
+    "name": "MemHarbor contributors"
+  },
+  "plugins": [
+    {
+      "name": "memharbor",
+      "source": "./plugins/memharbor",
+      "description": "Find reusable memories and turn conversation context into concise, reviewable updates."
+    }
+  ],
+  "metadata": {
+    "description": "MemHarbor memory tools and shared workflow."
+  }
+}

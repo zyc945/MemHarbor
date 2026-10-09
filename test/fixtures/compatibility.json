@@ -1,0 +1,259 @@
+{
+  "commit": "faa989e20ed5c83d715f2937b3a3fcc7d78ea81a",
+  "state": {
+    "commit": "c0",
+    "tree": "t0",
+    "files": {
+      "工作/café/CONTEXT.md": {
+        "content": "---\nid: 11111111-1111-4111-8111-111111111111\npath: 工作/café\nstatus: active\ntitle: network\naliases:\n  - 网络\ntags:\n  - infra\n---\n\n# network\n\nSynthetic context\n",
+        "revision": "11111111-1111-4111-8111-111111111111-CONTEXT.md"
+      },
+      "工作/café/STATE.md": {
+        "content": "﻿# Synthetic\n\nnetwork rollback fixture\n",
+        "revision": "11111111-1111-4111-8111-111111111111-STATE.md"
+      },
+      "工作/café/DECISIONS.md": {
+        "content": "﻿# Synthetic\n\nnetwork rollback fixture\n",
+        "revision": "11111111-1111-4111-8111-111111111111-DECISIONS.md"
+      },
+      "工作/café/TODO.md": {
+        "content": "﻿# Synthetic\n\nnetwork rollback fixture\n",
+        "revision": "11111111-1111-4111-8111-111111111111-TODO.md"
+      },
+      "工作/café/SOURCES.md": {
+        "content": "﻿# Synthetic\n\nnetwork rollback fixture\n",
+        "revision": "11111111-1111-4111-8111-111111111111-SOURCES.md"
+      },
+      "archive/CONTEXT.md": {
+        "content": "---\nid: 22222222-2222-4222-8222-222222222222\npath: archive\nstatus: archived\ntitle: network\naliases:\n  - 网络\ntags:\n  - infra\n---\n\n# network\n\nSynthetic context\n",
+        "revision": "22222222-2222-4222-8222-222222222222-CONTEXT.md"
+      },
+      "archive/STATE.md": {
+        "content": "﻿# Synthetic\n\nnetwork rollback fixture\n",
+        "revision": "22222222-2222-4222-8222-222222222222-STATE.md"
+      },
+      "archive/DECISIONS.md": {
+        "content": "﻿# Synthetic\n\nnetwork rollback fixture\n",
+        "revision": "22222222-2222-4222-8222-222222222222-DECISIONS.md"
+      },
+      "archive/TODO.md": {
+        "content": "﻿# Synthetic\n\nnetwork rollback fixture\n",
+        "revision": "22222222-2222-4222-8222-222222222222-TODO.md"
+      },
+      "archive/SOURCES.md": {
+        "content": "﻿# Synthetic\n\nnetwork rollback fixture\n",
+        "revision": "22222222-2222-4222-8222-222222222222-SOURCES.md"
+      }
+    },
+    "updatedAt": "2026-09-21T00:00:00Z"
+  },
+  "objects": [
+    [
+      "_blobs/22222222-2222-4222-8222-222222222222-CONTEXT.md",
+      {
+        "content": "---\nid: 22222222-2222-4222-8222-222222222222\npath: archive\nstatus: archived\ntitle: network\naliases:\n  - 网络\ntags:\n  - infra\n---\n\n# network\n\nSynthetic context\n",
+        "metadata": {
+          "git_blob_sha": "22222222-2222-4222-8222-222222222222-CONTEXT.md"
+        },
+        "etag": "cf143e00-d1ad-4e47-8c3e-998ff9ae52b9"
+      }
+    ],
+    [
+      "_blobs/22222222-2222-4222-8222-222222222222-STATE.md",
+      {
+        "content": "﻿# Synthetic\n\nnetwork rollback fixture\n",
+        "metadata": {
+          "git_blob_sha": "22222222-2222-4222-8222-222222222222-STATE.md"
+        },
+        "etag": "b7f61bec-eb00-45d5-b031-10bd3fda5358"
+      }
+    ],
+    [
+      "_blobs/22222222-2222-4222-8222-222222222222-DECISIONS.md",
+      {
+        "content": "﻿# Synthetic\n\nnetwork rollback fixture\n",
+        "metadata": {
+          "git_blob_sha": "22222222-2222-4222-8222-222222222222-DECISIONS.md"
+        },
+        "etag": "a97350ff-5ebf-4a4c-892a-9c337d2c6185"
+      }
+    ],
+    [
+      "_blobs/22222222-2222-4222-8222-222222222222-TODO.md",
+      {
+        "content": "﻿# Synthetic\n\nnetwork rollback fixture\n",
+        "metadata": {
+          "git_blob_sha": "22222222-2222-4222-8222-222222222222-TODO.md"
+        },
+        "etag": "8d73fb19-3b24-414a-9c1c-d9869e39801f"
+      }
+    ],
+    [
+      "_blobs/22222222-2222-4222-8222-222222222222-SOURCES.md",
+      {
+        "content": "﻿# Synthetic\n\nnetwork rollback fixture\n",
+        "metadata": {
+          "git_blob_sha": "22222222-2222-4222-8222-222222222222-SOURCES.md"
+        },
+        "etag": "7d0ec86d-ce72-41c4-b66f-05a7f8669d14"
+      }
+    ],
+    [
+      "_blobs/11111111-1111-4111-8111-111111111111-CONTEXT.md",
+      {
+        "content": "---\nid: 11111111-1111-4111-8111-111111111111\npath: 工作/café\nstatus: active\ntitle: network\naliases:\n  - 网络\ntags:\n  - infra\n---\n\n# network\n\nSynthetic context\n",
+        "metadata": {
+          "git_blob_sha": "11111111-1111-4111-8111-111111111111-CONTEXT.md"
+        },
+        "etag": "30f1b6c5-e616-4f70-940d-ba2f560172a8"
+      }
+    ],
+    [
+      "_blobs/11111111-1111-4111-8111-111111111111-STATE.md",
+      {
+        "content": "﻿# Synthetic\n\nnetwork rollback fixture\n",
+        "metadata": {
+          "git_blob_sha": "11111111-1111-4111-8111-111111111111-STATE.md"
+        },
+        "etag": "6d4989fe-847e-4a70-b432-1540464a270b"
+      }
+    ],
+    [
+      "_blobs/11111111-1111-4111-8111-111111111111-DECISIONS.md",
+      {
+        "content": "﻿# Synthetic\n\nnetwork rollback fixture\n",
+        "metadata": {
+          "git_blob_sha": "11111111-1111-4111-8111-111111111111-DECISIONS.md"
+        },
+        "etag": "5f044f0c-4c97-450f-a268-0cd70106fe96"
+      }
+    ],
+    [
+      "_blobs/11111111-1111-4111-8111-111111111111-TODO.md",
+      {
+        "content": "﻿# Synthetic\n\nnetwork rollback fixture\n",
+        "metadata": {
+          "git_blob_sha": "11111111-1111-4111-8111-111111111111-TODO.md"
+        },
+        "etag": "4eb150a3-ef32-40f7-bf63-5074ec681008"
+      }
+    ],
+    [
+      "_blobs/11111111-1111-4111-8111-111111111111-SOURCES.md",
+      {
+        "content": "﻿# Synthetic\n\nnetwork rollback fixture\n",
+        "metadata": {
+          "git_blob_sha": "11111111-1111-4111-8111-111111111111-SOURCES.md"
+        },
+        "etag": "ae556b7c-1b78-45d6-a8b8-581740b2f280"
+      }
+    ],
+    [
+      "_snapshots/8ee3365d-07ab-4f32-8e71-2af08bec0f80.json",
+      {
+        "content": "{\"schema_version\":3,\"git_commit\":\"c0\",\"generated_at\":\"2026-09-24T10:50:47.960Z\",\"topics\":[{\"id\":\"22222222-2222-4222-8222-222222222222\",\"path\":\"archive\",\"title\":\"network\",\"status\":\"archived\",\"aliases\":[\"网络\"],\"tags\":[\"infra\"],\"updated_at\":\"2026-09-21T00:00:00Z\"},{\"id\":\"11111111-1111-4111-8111-111111111111\",\"path\":\"工作/café\",\"title\":\"network\",\"status\":\"active\",\"aliases\":[\"网络\"],\"tags\":[\"infra\"],\"updated_at\":\"2026-09-21T00:00:00Z\"}],\"metadata\":{\"22222222-2222-4222-8222-222222222222\":{\"schema_version\":3,\"topic\":\"22222222-2222-4222-8222-222222222222\",\"path\":\"archive\",\"git_commit\":\"c0\",\"published_at\":\"2026-09-24T10:50:47.960Z\",\"files\":{\"CONTEXT.md\":{\"git_blob_sha\":\"22222222-2222-4222-8222-222222222222-CONTEXT.md\",\"size\":161},\"STATE.md\":{\"git_blob_sha\":\"22222222-2222-4222-8222-222222222222-STATE.md\",\"size\":41},\"DECISIONS.md\":{\"git_blob_sha\":\"22222222-2222-4222-8222-222222222222-DECISIONS.md\",\"size\":41},\"TODO.md\":{\"git_blob_sha\":\"22222222-2222-4222-8222-222222222222-TODO.md\",\"size\":41},\"SOURCES.md\":{\"git_blob_sha\":\"22222222-2222-4222-8222-222222222222-SOURCES.md\",\"size\":41}}},\"11111111-1111-4111-8111-111111111111\":{\"schema_version\":3,\"topic\":\"11111111-1111-4111-8111-111111111111\",\"path\":\"工作/café\",\"git_commit\":\"c0\",\"published_at\":\"2026-09-24T10:50:47.960Z\",\"files\":{\"CONTEXT.md\":{\"git_blob_sha\":\"11111111-1111-4111-8111-111111111111-CONTEXT.md\",\"size\":164},\"STATE.md\":{\"git_blob_sha\":\"11111111-1111-4111-8111-111111111111-STATE.md\",\"size\":41},\"DECISIONS.md\":{\"git_blob_sha\":\"11111111-1111-4111-8111-111111111111-DECISIONS.md\",\"size\":41},\"TODO.md\":{\"git_blob_sha\":\"11111111-1111-4111-8111-111111111111-TODO.md\",\"size\":41},\"SOURCES.md\":{\"git_blob_sha\":\"11111111-1111-4111-8111-111111111111-SOURCES.md\",\"size\":41}}}}}",
+        "etag": "dd7c1764-9b4e-4931-9e75-5b37fb64db53"
+      }
+    ],
+    [
+      "_current.json",
+      {
+        "content": "{\"schema_version\":3,\"key\":\"_snapshots/8ee3365d-07ab-4f32-8e71-2af08bec0f80.json\",\"git_commit\":\"c0\"}",
+        "etag": "e3cfcbf5-4098-43e0-9020-67d4ea4cd50e"
+      }
+    ]
+  ],
+  "list": {
+    "topics": [
+      {
+        "id": "22222222-2222-4222-8222-222222222222",
+        "path": "archive",
+        "title": "network",
+        "status": "archived",
+        "aliases": [
+          "网络"
+        ],
+        "tags": [
+          "infra"
+        ],
+        "updated_at": "2026-09-21T00:00:00Z"
+      }
+    ],
+    "total": 2,
+    "next_cursor": "eyJrZXkiOiJfc25hcHNob3RzLzhlZTMzNjVkLTA3YWItNGYzMi04ZTcxLTJhZjA4YmVjMGY4MC5qc29uIiwib2Zmc2V0IjoxLCJmaWx0ZXJfaGFzaCI6IjhmMGJhNWMyNzRjZGEzZjEzMWJhZDM2ZTg5YzAzYzZjODVmMzIxMmE4NjgzZDAyODQzYzVlZDViYmQzNzc3OTAifQ",
+    "git_commit": "c0"
+  },
+  "search": {
+    "topics": [
+      {
+        "id": "11111111-1111-4111-8111-111111111111",
+        "path": "工作/café",
+        "title": "network",
+        "status": "active",
+        "aliases": [
+          "网络"
+        ],
+        "tags": [
+          "infra"
+        ],
+        "updated_at": "2026-09-21T00:00:00Z"
+      }
+    ],
+    "total": 2,
+    "next_cursor": "eyJrZXkiOiJfc25hcHNob3RzLzhlZTMzNjVkLTA3YWItNGYzMi04ZTcxLTJhZjA4YmVjMGY4MC5qc29uIiwib2Zmc2V0IjoxLCJmaWx0ZXJfaGFzaCI6IjViZDViMzZjMTQyZTFhMDRiMDA3MTljYmRmYTdlNjQ2N2MxNWZmNWFjN2JlZTkyMTk0ZjAyNWI4NWM1NTRkMTYifQ",
+    "git_commit": "c0"
+  },
+  "ignored": {
+    "topics": [
+      {
+        "id": "11111111-1111-4111-8111-111111111111",
+        "path": "工作/café",
+        "title": "network",
+        "status": "active",
+        "aliases": [
+          "网络"
+        ],
+        "tags": [
+          "infra"
+        ],
+        "updated_at": "2026-09-21T00:00:00Z"
+      },
+      {
+        "id": "22222222-2222-4222-8222-222222222222",
+        "path": "archive",
+        "title": "network",
+        "status": "archived",
+        "aliases": [
+          "网络"
+        ],
+        "tags": [
+          "infra"
+        ],
+        "updated_at": "2026-09-21T00:00:00Z"
+      }
+    ],
+    "total": 2,
+    "next_cursor": null,
+    "git_commit": "c0"
+  },
+  "full": {
+    "id": "11111111-1111-4111-8111-111111111111",
+    "topic": "11111111-1111-4111-8111-111111111111",
+    "path": "工作/café",
+    "git_commit": "c0",
+    "files": {
+      "CONTEXT.md": "---\nid: 11111111-1111-4111-8111-111111111111\npath: 工作/café\nstatus: active\ntitle: network\naliases:\n  - 网络\ntags:\n  - infra\n---\n\n# network\n\nSynthetic context\n",
+      "STATE.md": "﻿# Synthetic\n\nnetwork rollback fixture\n",
+      "DECISIONS.md": "﻿# Synthetic\n\nnetwork rollback fixture\n",
+      "TODO.md": "﻿# Synthetic\n\nnetwork rollback fixture\n",
+      "SOURCES.md": "﻿# Synthetic\n\nnetwork rollback fixture\n"
+    },
+    "revisions": {
+      "CONTEXT.md": "11111111-1111-4111-8111-111111111111-CONTEXT.md",
+      "STATE.md": "11111111-1111-4111-8111-111111111111-STATE.md",
+      "DECISIONS.md": "11111111-1111-4111-8111-111111111111-DECISIONS.md",
+      "TODO.md": "11111111-1111-4111-8111-111111111111-TODO.md",
+      "SOURCES.md": "11111111-1111-4111-8111-111111111111-SOURCES.md"
+    }
+  }
+}

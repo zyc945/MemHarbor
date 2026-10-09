@@ -1,0 +1,4 @@
+interface:
+  display_name: "MemHarbor"
+  short_description: "查找已有记忆，围绕主题提炼关键事实与行动，查重合并后确认保存"
+  default_prompt: "使用 $memharbor 围绕本次主题和后续使用目标提炼关键事实、结论、必要依据与下一步，查找已有记忆，生成简明准确的新建、更新或引用草稿，供我确认后保存。"

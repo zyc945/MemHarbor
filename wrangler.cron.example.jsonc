@@ -1,0 +1,20 @@
+{
+  // New installations only. Merge chosen fields into an existing deployment;
+  // never replace its names, bindings, secrets or existing triggers.
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "memharbor",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-09-21",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": { "enabled": true },
+  "vars": {
+    "GITHUB_OWNER": "your-github-owner",
+    "GITHUB_REPO": "your-private-memory-repo",
+    "GITHUB_BRANCH": "main",
+    "MAX_FILE_BYTES": "262144",
+    "MEMORY_WEBHOOK_ENABLED": false,
+    "MEMORY_CONTENT_SEARCH": false
+  },
+  "r2_buckets": [{ "binding": "MEMORY_BUCKET", "bucket_name": "your-memory-bucket" }],
+  "triggers": { "crons": ["*/15 * * * *"] }
+}

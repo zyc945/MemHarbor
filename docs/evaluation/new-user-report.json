@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-01",
+  "scope": "Synthetic first-use acceptance, not production or a model benchmark",
+  "versions": {
+    "codex": "0.159.0",
+    "package_runtime": "0.1.0"
+  },
+  "model": "CLI default; exact model was not recorded",
+  "skill_sha256": "63ff2a02427eea88daeb119e41ca0be062df5950fa7f682814838f58fedfbe83",
+  "standalone_archive_sha256": "83791ba1ea99acafccbb526c340395415e8435f6e3d2e42513123d985507d9f0",
+  "codex": {
+    "same_process_same_thread": true,
+    "only_demo_tools_enabled": true,
+    "oauth_errors": false,
+    "topic_counts": [
+      1,
+      1,
+      2,
+      2,
+      2
+    ],
+    "one_new_uuid_retained": true,
+    "final_read_commit_unchanged": true,
+    "mutations_per_turn": [
+      0,
+      1,
+      1,
+      0
+    ],
+    "tool_results": [
+      {
+        "phase": 1,
+        "tool": "search_memories",
+        "native_status": "completed",
+        "isError": false,
+        "status": null,
+        "published": null,
+        "error_code": null
+      },
+      {
+        "phase": 1,
+        "tool": "list_memories",
+        "native_status": "completed",
+        "isError": false,
+        "status": null,
+        "published": null,
+        "error_code": null
+      },
+      {
+        "phase": 1,
+        "tool": "load_context",
+        "native_status": "completed",
+        "isError": false,
+        "status": null,
+        "published": null,
+        "error_code": null
+      },
+      {
+        "phase": 2,
+        "tool": "list_memories",
+        "native_status": "completed",
+        "isError": false,
+        "status": null,
+        "published": null,
+        "error_code": null
+      },
+      {
+        "phase": 2,
+        "tool": "create_memory",
+        "native_status": "completed",
+        "isError": false,
+        "status": "created",
+        "published": true,
+        "error_code": null
+      },
+      {
+        "phase": 2,
+        "tool": "load_context",
+        "native_status": "completed",
+        "isError": false,
+        "status": null,
+        "published": null,
+        "error_code": null
+      },
+      {
+        "phase": 2,
+        "tool": "read_memory_file",
+        "native_status": "completed",
+        "isError": false,
+        "status": null,
+        "published": null,
+        "error_code": null
+      },
+      {
+        "phase": 3,
+        "tool": "load_context",
+        "native_status": "completed",
+        "isError": false,
+        "status": null,
+        "published": null,
+        "error_code": null
+      },
+      {
+        "phase": 3,
+        "tool": "checkpoint_memory",
+        "native_status": "completed",
+        "isError": false,
+        "status": "checkpointed",
+        "published": true,
+        "error_code": null
+      },
+      {
+        "phase": 3,
+        "tool": "load_context",
+        "native_status": "completed",
+        "isError": false,
+        "status": null,
+        "published": null,
+        "error_code": null
+      },
+      {
+        "phase": 4,
+        "tool": "load_context",
+        "native_status": "completed",
+        "isError": false,
+        "status": null,
+        "published": null,
+        "error_code": null
+      }
+    ],
+    "saved_state_checks": [
+      {
+        "phase": 2,
+        "direct_read_checks": {
+          "weekly": true,
+          "thirty_minute_sessions": true
+        }
+      },
+      {
+        "phase": 3,
+        "direct_read_checks": {
+          "weekly": true,
+          "thirty_minute_sessions": true,
+          "selected": true,
+          "unread": true,
+          "chapter_one": true
+        }
+      },
+      {
+        "phase": 4,
+        "direct_read_checks": {
+          "weekly": true,
+          "thirty_minute_sessions": true,
+          "selected": true,
+          "unread": true,
+          "chapter_one": true
+        }
+      }
+    ]
+  },
+  "t0": {
+    "independent_agent": true,
+    "commit_count": 2,
+    "clean_worktree": true
+  },
+  "limitations": [
+    "Single synthetic scenario, not a statistical quality estimate",
+    "Earlier multi-turn recorder omitted application errors and its two create calls remain inconclusive; this report uses only the corrected run",
+    "Demo is temporary; fresh-process persistence was tested separately with standalone T0",
+    "Claude Code needs login; Cursor is unavailable",
+    "No production memory mutations or service deployment; standalone Skill publication was authorized separately"
+  ],
+  "publication": {
+    "date": "2026-10-02",
+    "repository": "https://github.com/zyc945/memharbor-skill",
+    "commit": "4c69513c4bd0200898aa0716a90ed7f3b054564b",
+    "files": 9,
+    "service_source_private": true,
+    "anonymous_github_api": true,
+    "anonymous_skills_discovery": true,
+    "anonymous_skills_install": true,
+    "official_codex_installer_download": true,
+    "installed_files_match_release": true,
+    "archive_matches_release": true
+  }
+}

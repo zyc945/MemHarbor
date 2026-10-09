@@ -1,0 +1,26 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "memharbor",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-09-21",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "observability": {
+    "enabled": true
+  },
+  "workers_dev": true,
+  "preview_urls": false,
+  "vars": {
+    "GITHUB_OWNER": "your-github-owner",
+    "GITHUB_REPO": "your-private-memory-repo",
+    "GITHUB_BRANCH": "main",
+    "MAX_FILE_BYTES": "262144"
+  },
+  "r2_buckets": [
+    {
+      "binding": "MEMORY_BUCKET",
+      "bucket_name": "your-memory-bucket"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+MEMORY_READ_TOKEN=replace-with-random-read-token
+MEMORY_WRITE_TOKEN=replace-with-random-write-token
+GITHUB_TOKEN=replace-with-private-test-repository-token
+GITHUB_WEBHOOK_SECRET=replace-with-random-webhook-secret

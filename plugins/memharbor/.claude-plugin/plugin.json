@@ -1,0 +1,33 @@
+{
+  "name": "memharbor",
+  "version": "0.1.0",
+  "description": "Find reusable memories and turn conversation context into concise, reviewable updates.",
+  "author": {
+    "name": "MemHarbor contributors"
+  },
+  "repository": "https://github.com/zyc945/MemHarbor",
+  "userConfig": {
+    "endpoint": {
+      "type": "string",
+      "title": "MemHarbor MCP URL",
+      "description": "HTTPS endpoint of your deployed MemHarbor service, ending in /mcp.",
+      "required": true
+    },
+    "token": {
+      "type": "string",
+      "title": "MemHarbor access token",
+      "description": "MemHarbor read or write token, without the Bearer prefix. Do not use a GitHub PAT.",
+      "sensitive": true,
+      "required": true
+    }
+  },
+  "mcpServers": {
+    "memharbor": {
+      "type": "http",
+      "url": "${user_config.endpoint}",
+      "headers": {
+        "Authorization": "Bearer ${user_config.token}"
+      }
+    }
+  }
+}
