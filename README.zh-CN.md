@@ -106,8 +106,8 @@ GitHub 私有仓库保存规范 Markdown 和历史，R2 提供当前快照，Clo
 取得源码访问权限后，使用 Node.js 22+ 构建无凭据演示：
 
 ```sh
-git clone https://github.com/zyc945/memharbor-public.git
-cd memharbor-public
+git clone https://github.com/zyc945/MemHarbor.git
+cd MemHarbor
 npm ci
 npm run demo
 ```

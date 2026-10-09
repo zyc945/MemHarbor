@@ -106,8 +106,8 @@ This repository contains the optional service implementation. The standalone Ski
 With source access and Node.js 22+, build the credential-free demo:
 
 ```sh
-git clone https://github.com/zyc945/memharbor-public.git
-cd memharbor-public
+git clone https://github.com/zyc945/MemHarbor.git
+cd MemHarbor
 npm ci
 npm run demo
 ```

@@ -211,6 +211,7 @@ Details and scope: [new-user verification](evaluation/NEW-USER.md). Earlier remo
 ## Public source preparation — 2026-10-09
 
 - [x] Prepare an independent release history with noreply commit identity; retain original development history privately.
+- [x] Use the canonical `zyc945/MemHarbor` repository name for the clean source; retain original history in private `zyc945/MemHarbor-private`.
 - [x] Preserve runtime, tests, dependency metadata and frozen fixtures; normalize source installation links and machine-specific documentation paths.
 - [x] Verify fresh installation, typecheck, 100 unit tests, Worker suites, stdio and 32-case synthetic evaluation; see [SOURCE_PREPARATION.md](SOURCE_PREPARATION.md).
 - [ ] Upgrade the six reported development dependency advisories and rerun full CI.

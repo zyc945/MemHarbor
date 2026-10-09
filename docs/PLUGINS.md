@@ -31,7 +31,7 @@ claude plugin install memharbor@memharbor --scope user
 相关版本推送后，也可以将第一条改为：
 
 ```sh
-claude plugin marketplace add zyc945/memharbor-public
+claude plugin marketplace add zyc945/MemHarbor
 ```
 
 启用插件时填写 `endpoint`（完整 HTTPS `/mcp` 地址）和 `token`（不含 `Bearer `）。令牌字段标记为敏感，由 Claude Code 的凭据机制保存；不要将真实令牌写入命令、项目设置或插件清单。启动新会话，在 `/mcp` 检查插件提供的服务。

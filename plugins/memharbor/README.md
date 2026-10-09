@@ -9,4 +9,4 @@ Find and read relevant memories, or turn conversation context into concise draft
 
 Use one installation route per client. Installing this package does not deploy a server. Never put real tokens in the package. Reads do not imply permission to write; saving previews the proposed changes unless the user has already authorized them.
 
-See the repository's [installation and compatibility guide](https://github.com/zyc945/memharbor-public/blob/main/docs/PLUGINS.md) for setup, migration, verification, and uninstall instructions. Client authentication and end-to-end write acceptance remain subject to the verification limits documented there.
+See the repository's [installation and compatibility guide](https://github.com/zyc945/MemHarbor/blob/main/docs/PLUGINS.md) for setup, migration, verification, and uninstall instructions. Client authentication and end-to-end write acceptance remain subject to the verification limits documented there.
